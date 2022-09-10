@@ -1,9 +1,9 @@
 # RE-Tool-Usability-Artifacts
 This is a repo containing the environment, data, and analysis code to reproduce the results from the paper. This repo includes four files:
 
-FinalData.csv -- Our final data in csv format after all transformations and post processing have been applied.
-
 Fulldf.csv -- Our raw data set produced from the qualitative coding process of the plugins. This file must be placed in the same directory as the .Rmd file when running the markdown application.
+
+FinalData.csv -- Our final data in csv format after all transformations and post processing have been applied.
 
 RE Tool Usability Artifact.Rmd -- The R markdown file containing the code for posprocessing our raw data set, producing the visualizations used in the paper, and running the statistical tests reported in the results. This file is broken into multiple code blocks that should be independently executed as per the comments in the file. The best way to run this file is in a RStudio session.
 
