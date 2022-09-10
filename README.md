@@ -15,7 +15,7 @@ The environment for running the R markdown file is an Anaconda environment. To i
 
 2. Install the RE Tool Usability environment: Once Anaconda is installed, and can be called from the console/terminal, it can be used to install the standard Python and R environment and tools. Download the environment file (it should be saved to your computer as RE_Tool_Usability.yaml). Once downloaded, you can execute the following command from the directory containing that file, in order to install all of the libraries required (this may take a few minutes).
 
-  conda env create -f RE_Tool_Usability.yml
+  conda env create -f RE_Tool_Usability.yaml
 
   Alternatively, from the Anaconda Navigator window you can select the "Environments" tab on the left sidebar directly underneath "Home." From here you can see a list of  already installed environments. Bellow the list of installed environments you can click "Import" and then select the RE_Tool_Usability.yaml file to install the   environment.
 
