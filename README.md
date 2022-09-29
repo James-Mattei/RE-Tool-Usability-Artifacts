@@ -1,7 +1,7 @@
 # RE-Tool-Usability-Artifacts
 This is a repo containing the environment, data, and analysis code to reproduce the results from the paper. This repo includes four files:
 
-Fulldf.csv -- Our raw data set produced from the qualitative coding process of the plugins. This file is the aggregation of the qualitative coding that we performed across all the different tools. This file was not generated through any statistical techniques and represents the starting point for our data. This file must be placed in the same directory as the .Rmd file when running the markdown application.
+Fulldf.csv -- Our raw data set produced from the manual qualitative coding process of the plugins. This file is the aggregation of the qualitative coding that we performed across all the different tools. This file was not generated through any statistical techniques and represents the starting point for our data. The content of this file was entirely produced by the two qualitative coders as described in section 4.3 of the paper. This file must be placed in the same directory as the .Rmd file when running the markdown application.
 
 FinalData.csv -- Our final data in csv format after all transformations and post processing have been applied.
 
