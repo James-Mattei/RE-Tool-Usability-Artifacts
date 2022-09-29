@@ -1,7 +1,7 @@
 # RE-Tool-Usability-Artifacts
 This is a repo containing the environment, data, and analysis code to reproduce the results from the paper. This repo includes four files:
 
-Fulldf.csv -- Our raw data set produced from the qualitative coding process of the plugins. This file must be placed in the same directory as the .Rmd file when running the markdown application.
+Fulldf.csv -- Our raw data set produced from the qualitative coding process of the plugins. This file is the aggregation of the qualitative coding that we performed across all the different tools. This file was not generated through any statistical techniques and represents the starting point for our data. This file must be placed in the same directory as the .Rmd file when running the markdown application.
 
 FinalData.csv -- Our final data in csv format after all transformations and post processing have been applied.
 
@@ -30,3 +30,10 @@ The environment for running the R markdown file is an Anaconda environment. To i
   rsudio
 
   If using the Anaconda Navigator, return to the "Home" tab to see a list of applications and click on the launch button under RStudio
+  
+  
+The following r packages are required to run the rmd file:
+
+lmtest, ggplot2, dplyr, reshape, reshape2, tidyverse, viridis, forcats, broom, xtable
+
+These packages will all be installed (if not installed already) in the first block of the "RE Tool Usability Artifact.Rmd" file.
