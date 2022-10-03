@@ -21,3 +21,10 @@ Once downloaded, execute the application by running:
 docker run jam580/retools
 
 The r script will execute and the relevant outputs will be shown with a numbered delineation at the start of the line.
+
+When running the script there will repeatedly be the following line in the output: 
+
+`summarise()` has grouped output by 'Dynamic'. You can override using the
+`.groups` argument.
+
+This is a default prompt stating the summarise command has used the 'Dynamic' parameter to organize the output. This default parameter is the intended result and does not have any negative impact on our analysis.
