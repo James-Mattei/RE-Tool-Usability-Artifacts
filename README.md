@@ -16,11 +16,17 @@ You can confirm the image was properly downloaded by running:
 
 docker images
 
-Once downloaded, execute the application by running:
+Our analysis produces three figures (G1vInput.png, G1vOutContent.png, G1vOutMethod.png) that are used to create figures 2, 4, and 5 in the paper. The figures produced by the script were modified by hand to produce the final figures in the paper. Only the bars representing data that was used in the Chi-Squared tests were included, and certain bars were renamed to be more clear. For example in the G1vInput.png figure, the bars for "User defined input" was renamed to become "Scripts / Strings" in Figure 2. Certain bars were combined in the final figure to represent how the data was grouped for the Chi-squared tests. For example in the G1vOutContent.png figure, the "New patched code" and "Selected area O" bars were combined to form the "Code body" bar in Figure 4.
 
-docker run jam580/retools
+In order to see these figures you must mount a directory to the docker image. The figures are saved inside the docker image at the directory: /home/results 
 
-The r script will execute and the relevant outputs will be shown with a numbered delineation at the start of the line.
+If you are running from your home directory, the following sequence of commands will correctly set up a recieving folder for the results:
+
+mkdir ~/results
+
+docker run -v ~/results:/home/results jam580/retools
+
+The r script will execute and the relevant outputs will be shown with a numbered delineation at the start of the line. The figures will be saved as .png files in the mounted folder (/results) on your local machine.
 
 When running the script there will repeatedly be the following line in the output: 
 
