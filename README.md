@@ -24,7 +24,7 @@ The r script will execute and the relevant outputs will be shown with a numbered
 
 When running the script there will repeatedly be the following line in the output: 
 
-`summarise()` has grouped output by 'Dynamic'. You can override using the
+`summarise()` has grouped output by 'X'. You can override using the
 `.groups` argument.
 
-This is a default prompt stating the summarise command has used the 'Dynamic' parameter to organize the output. This default parameter is the intended result and does not have any negative impact on our analysis.
+This is a default prompt stating the summarise command has used one of the variables (X = G1, Static, Dynamic) to organize the output. This default parameter is the intended result and does not have any negative impact on our analysis.
